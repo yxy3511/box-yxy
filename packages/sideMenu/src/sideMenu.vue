@@ -45,7 +45,7 @@
 <style scoped lang='stylus'>
 .side-menu-component
   position fixed
-  left 0
+  // left 0
   // top 0
   height 100%
   .stretch
