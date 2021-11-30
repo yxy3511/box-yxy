@@ -1,6 +1,12 @@
 <template>
-  <hello-world></hello-world>
-  <router-view/>
+  <div class='components-box'>
+    <div class="title">
+      yxy3511
+    </div>
+    <side-menu></side-menu>
+    <hello-world></hello-world>
+    <router-view/>
+  </div>
 </template>
 
 <script>
@@ -14,13 +20,13 @@ export default {
 }
 </script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+<style lang='stylus'>
+.components-box
+  .title
+    background #333
+    color #fff
+    display flex
+    align-items center
+    justify-content center
+    height 70px
 </style>
